@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "91535c36-c7ff-4926-8e89-08bad2a6b663",
-		"name": "PetStore API",
+		"_postman_id": "cb34ae75-d2ca-47f4-bb78-76b954e17c3b",
+		"name": "PetStore API 2.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n  {\r\n    \"id\": 3,\r\n    \"username\": \"user1\",\r\n    \"firstName\": \"Andrew\",\r\n    \"lastName\": \"Kukhta\",\r\n    \"email\": \"1234@mail.ru\",\r\n    \"password\": \"1234\",\r\n    \"phone\": \"1234\",\r\n    \"userStatus\": 1\r\n  }\r\n]",
+					"raw": "[\r\n  {\r\n    \"id\": 666,\r\n    \"username\": \"billy\",\r\n    \"firstName\": \"first\",\r\n    \"lastName\": \"last\",\r\n    \"email\": \"1234@mail.ru\",\r\n    \"password\": \"1234\",\r\n    \"phone\": \"1234\",\r\n    \"userStatus\": 666\r\n  }\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,7 +42,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
+					"raw": "https://petstore.swagger.io/v2/user/billy",
 					"protocol": "https",
 					"host": [
 						"petstore",
@@ -52,7 +52,7 @@
 					"path": [
 						"v2",
 						"user",
-						"user1"
+						"billy"
 					]
 				}
 			},
@@ -65,7 +65,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"id\": 4,\r\n  \"username\": \"user1\",\r\n  \"firstName\": \"Andron\",\r\n  \"lastName\": \"Kukhta\",\r\n  \"email\": \"123\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"123\",\r\n  \"userStatus\": 2\r\n}",
+					"raw": "{\r\n  \"id\": 666,\r\n  \"username\": \"billy\",\r\n  \"firstName\": \"firstName\",\r\n  \"lastName\": \"lastName\",\r\n  \"email\": \"123\",\r\n  \"password\": \"123\",\r\n  \"phone\": \"123\",\r\n  \"userStatus\": 666\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -73,7 +73,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
+					"raw": "https://petstore.swagger.io/v2/user/billy",
 					"protocol": "https",
 					"host": [
 						"petstore",
@@ -83,7 +83,7 @@
 					"path": [
 						"v2",
 						"user",
-						"user1"
+						"billy"
 					]
 				}
 			},
@@ -95,7 +95,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
+					"raw": "https://petstore.swagger.io/v2/user/billy",
 					"protocol": "https",
 					"host": [
 						"petstore",
@@ -105,7 +105,7 @@
 					"path": [
 						"v2",
 						"user",
-						"user1"
+						"billy"
 					]
 				}
 			},
@@ -117,7 +117,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
+					"raw": "https://petstore.swagger.io/v2/user/billy",
 					"protocol": "https",
 					"host": [
 						"petstore",
@@ -127,7 +127,7 @@
 					"path": [
 						"v2",
 						"user",
-						"user1"
+						"billy"
 					]
 				}
 			},
@@ -146,7 +146,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://petstore.swagger.io/v2/user/user1",
+					"raw": "https://petstore.swagger.io/v2/user/billy",
 					"protocol": "https",
 					"host": [
 						"petstore",
@@ -156,7 +156,7 @@
 					"path": [
 						"v2",
 						"user",
-						"user1"
+						"billy"
 					]
 				}
 			},
